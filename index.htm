@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romyk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="bg-circle bg-left-pink"></div>
+    <div class="bg-circle bg-right-yellow"></div>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Romyk Logo">
+        </div>
+
+        <i onclick="menuchange()" class="fas fa-bars fa-bars"></i>
+        <nav class="navbar" id="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Icecream</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+
+            <div class="nav-icons-mobile">
+                <a href="#" class="login-btn"><i class="fas fa-user"></i> Login</a>
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+            </div>
+        </nav>
+
+        <div class="nav-icons-desktop">
+            <a href="#" class="login-btn">Login <i class="fas fa-user"></i></a>
+            <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Ice <br class="desktop-only">Cream</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem</p>
+            <a href="#" class="btn-order">Order Now</a>
+
+            <div class="slider-nav">
+                <span class="active">01</span>
+                <span>02</span>
+                <span>03</span>
+                <span>04</span>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-pink-circle"></div>
+            <img src="img/banner-img.png" alt="Strawberry Ice Cream">
+        </div>
+    </main>
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <div class="circle-bg"></div>
+                <img src="img/about-img.png" alt="About Icecream">
+            </div>
+            <div class="about-content">
+                <h2>About Icecream</h2>
+                <div class="line"></div>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    euconsectetur adipiscing esequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="products-header">
+            <div class="title-container">
+                <h2>Our Featured Ice Cream</h2>
+                <span class="pink-line"></span>
+            </div>
+            <p class="subtitle">tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-1.png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-2.png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-3.png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-4.png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-5.png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/img-1 (1).png" alt="Ice Cream">
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Ice Cream</h3>
+                    <a href="#" class="btn-cart">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="see-more-wrapper">
+            <a href="#" class="btn-see-more">See More</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-header">
+            <div class="title-container">
+                <h2>Our Ice Cream Services</h2>
+                <span class="pink-line"></span>
+            </div>
+            <p class="subtitle">tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-title-row">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+                    <h3>Cookies Ice Cream</h3>
+                </div>
+                <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fat</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-title-row">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+                    <h3>Cookies Ice Cream</h3>
+                </div>
+                <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fat</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-title-row">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+                    <h3>Cookies Ice Cream</h3>
+                </div>
+                <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fat</p>
+            </div>
+        </div>
+
+        <div class="read-more-wrapper">
+            <a href="#" class="btn-read-more">Read More</a>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h2>Testimonial</h2>
+
+        <div class="testimonial-wrapper">
+            <button class="slider-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                </p>
+                <h3 class="testimonial-author">Marri Fen</h3>
+                <div class="author-image">
+                    <img src="img/client-img.png" alt="Marri Fen">
+                </div>
+            </div>
+
+            <button class="slider-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="NAME" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="EMAIL" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="PHONE NUMBER" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="MESSAGE" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-send">SEND</button>
+                </form>
+            </div>
+
+            <div class="footer-right">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Making this the first true</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call : +01 1234567890</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email : demo@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="newsletter-box">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="ENTER YOUR EMAIL" required>
+                        <button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+                    </form>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>2020 All Rights Reserved. Design by Free Html Templates Distribution by ThemeWagon</p>
+        </div>
+    </footer>
+
+    <script>
+        function menuchange() {
+            let navbar = document.getElementById('navbar');
+
+            if (navbar.style.display === 'flex') {
+                navbar.style.display = 'none';
+            } else {
+
+                navbar.style.display = 'flex';
+            }
+        }
+    </script>
+</body>
+
+</html>
