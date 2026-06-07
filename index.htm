@@ -83,7 +83,7 @@
         </div>
     </section>
 
-    <section class="products">
+    <!-- <section class="products">
         <div class="products-header">
             <div class="title-container">
                 <h2>Our Featured Ice Cream</h2>
@@ -159,6 +159,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="see-more-wrapper">
+            <a href="#" class="btn-see-more">See More</a>
+        </div>
+    </section> -->
+
+    <section class="products">
+        <div class="products-header">
+            <div class="title-container">
+                <h2>Our Featured Ice Cream</h2>
+                <span class="pink-line"></span>
+            </div>
+            <p class="subtitle">tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+        <div class="products-grid" id="products-container"> </div>
 
         <div class="see-more-wrapper">
             <a href="#" class="btn-see-more">See More</a>
@@ -301,18 +317,8 @@
         </div>
     </footer>
 
-    <script>
-        function menuchange() {
-            let navbar = document.getElementById('navbar');
-
-            if (navbar.style.display === 'flex') {
-                navbar.style.display = 'none';
-            } else {
-
-                navbar.style.display = 'flex';
-            }
-        }
-    </script>
+    <script src="data.js"> </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
